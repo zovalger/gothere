@@ -1,0 +1,16 @@
+
+.container {
+	background:  url("/morro-1-hero-dark-2.jpg");
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	img{
+    max-width: 400px;
+  }
+}
+.info{
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
