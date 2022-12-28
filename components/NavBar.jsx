@@ -8,11 +8,11 @@ export default function NavBar() {
 			<div className="container-fluid text-white">
 				<Link className="navbar-brand d-flex align-items-center" href="#">
 					<Image
-						src="/GoThere-white.png"
-						alt="logo gothere"
-						width={70}
-						height={10}
-						className={styles.Nav_logo}
+						className={styles.logo}
+						src="/GoThere-black.svg"
+						alt="logo"
+						width={200}
+						height={200}
 					/>
 
 					<span className=" text-white">GoThere</span>

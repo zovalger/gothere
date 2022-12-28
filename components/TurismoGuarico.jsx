@@ -11,8 +11,8 @@ export default function TurismoGuarico() {
 						<Image
 							src="/esteros-de-camaguan-2.jpg"
 							alt="esteros-de-camaguan-2.jpg"
-							width={400}
-							height={500}
+							width={228}
+							height={320}
 						/>
 					</div>
 
@@ -20,8 +20,8 @@ export default function TurismoGuarico() {
 						<Image
 							src="/evening-2.jpg"
 							alt="evening-2.jpg"
-							width={400}
-							height={500}
+							width={328}
+							height={287}
 						/>
 					</div>
 				</div>

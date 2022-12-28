@@ -7,13 +7,13 @@ export default function MainHero() {
 		<div className={`${styles.container} container-fluid`}>
 			<div className={`${styles.info} container text-center text-white `}>
 				<Image
-					className="w-75"
-					src="/GoThere-white.png"
-					alt="logo gothere"
-					width={1500}
-					height="20"
+					className={`${styles.logo} w-75`}
+					src="/GoThere-black.svg"
+					alt="logo"
+					width={200}
+					height={200}
 				/>
-				{/* </div> */}
+
 				<h1 className="display-4 fw-normal">
 					Conoce y disfruta de <strong>Guárico</strong>
 				</h1>
