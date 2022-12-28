@@ -1,0 +1,47 @@
+.imgContainer {
+	// background: gray;
+	height: 20rem;
+
+	// &:first-child{
+
+	// 	width: 30px;
+	// }
+	position: relative;
+}
+
+.img_item {
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.404);
+	border-radius: 10px;
+	overflow: hidden;
+
+	&:first-child {
+		width: 50%;
+		height: 100%;
+
+		img {
+			height: 100%;
+		}
+		position: absolute;
+
+		top: 0;
+		left: 0;
+	}
+
+	&:last-child {
+		width: 60%;
+		// hei
+		position: absolute;
+
+		bottom: 0;
+		right: 2rem;
+
+		transform: rotateZ(-20deg);
+	}
+}
+.guaricoWord {
+	
+	text-transform: uppercase;
+
+	letter-spacing: 1.5rem;
+
+}

@@ -4,6 +4,8 @@ import styles from "../styles/Home.module.scss";
 import NavBar from "../components/NavBar";
 import CardService_Container from "../components/CardService_Container";
 import MainHero from "../components/MainHero";
+import TurismoGuarico from "../components/TurismoGuarico";
+import ServiceGeneral from "../components/ServiceGeneral";
 
 export default function Home() {
 	return (
@@ -15,7 +17,10 @@ export default function Home() {
 
 				<div className="container">
 					<CardService_Container />
+					<TurismoGuarico />
 				</div>
+
+				<ServiceGeneral />
 			</main>
 		</>
 	);

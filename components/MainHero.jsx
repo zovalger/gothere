@@ -17,7 +17,7 @@ export default function MainHero() {
 				<h1 className="display-4 fw-normal">
 					Conoce y disfruta de <strong>Guárico</strong>
 				</h1>
-				<div className="col-7 mx-auto">
+				<div className="col-8 mx-auto">
 					<p className="lead ">
 						Nosotros nos encargamos de la planificación mientras tu te diviertes
 						en esta llanura

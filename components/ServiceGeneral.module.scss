@@ -1,0 +1,38 @@
+
+.hero {
+
+	margin-top: 4rem;
+	background:  url("/aguas-termales-1-hero.jpg");
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	img{
+    max-width: 400px;
+  }
+// }
+// .info{
+//   padding-top: 5rem;
+//   padding-bottom: 7rem;
+}
+
+
+.card{
+	// width: 23rem;
+	
+	padding: 4rem 1.5rem;
+
+	transform: scale(115%);
+	margin-right: 3rem;
+
+	@media (max-width: 770px) { 
+	
+		&{
+			transform: scale(100%);
+			margin-right: 0;
+
+		}
+	
+	}
+}
