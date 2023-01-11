@@ -35,11 +35,20 @@ export default function TurismoGuarico() {
 					</span>
 				</h2>
 				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-					harum nostrum unde sapiente minima explicabo at iste, tempora iusto
-					eveniet aut. Facilis libero exercitationem quia dolor deleniti fugit,
-					iusto nesciunt!
+					El estado Guárico tiene muchas bellezas que ofrecer en materia
+					turística, es uno de los estados privilegiados de Venezuela por su
+					ubicación y por su atractivo en recursos naturales. Sabanas,
+					balnearios, morros escarpados y ríos imponentes.
 				</p>
+				<p>Existen muchos monumentos naturales asi como parques tales como:</p>
+				<ul>
+					<li>Aguas termales de San Juan de Los Morros</li>
+					<li>Aguas termales de Gurumen</li>
+					<li>Parque Nacional Aguaro - Guariquito</li>
+					<li>Parque Nacional Guatopo</li>
+					<li>Monumento Natural Arístides Rojas (Morros de San Juan)</li>
+					<li>Embalse de Tierra Blanca</li>
+				</ul>
 			</div>
 		</section>
 	);
