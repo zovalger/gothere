@@ -19,7 +19,7 @@ export default function MainHero() {
 				</h1>
 				<div className="col-8 mx-auto">
 					<p className="lead ">
-						Nosotros nos encargamos de la planificación mientras tu te diviertes
+						Nosotros nos encargamos de la planificación mientras tú te diviertes
 						en esta llanura
 					</p>
 				</div>

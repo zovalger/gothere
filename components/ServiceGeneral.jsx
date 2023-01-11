@@ -14,23 +14,23 @@ export default function ServiceGeneral() {
 					<div
 						className={`${styles.card} text-white col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-primary`}
 					>
-						<h2 className="mb-3">que te ofrecemos?</h2>
+						<h2 className="mb-3">¿Que ofrecemos?</h2>
 
 						<p className="mb-4 ">
-							ofrecemos un paquete de servicios todo incluido en la region de
-							sanjuan de los morros que abarca los siguiente aspectos
+							Ofrecemos un paquete de servicios todo incluido en la región de
+							San Juan de los Morros que abarca los siguientes aspectos
 						</p>
 
 						<div className="row">
 							<div className="col-6 ">
-								<ServiceGeneralItem Icon={FaBed} text="Habitacion" />
+								<ServiceGeneralItem Icon={FaBed} text="Habitación" />
 								<ServiceGeneralItem Icon={FaUtensils} text="Comida" />
 								<ServiceGeneralItem Icon={FaSwimmingPool} text="Piscina" />
 							</div>
 
 							<div className="col-6 ">
 								<ServiceGeneralItem Icon={FaBus} text="Trasporte" />
-								<ServiceGeneralItem Icon={RiGuideFill} text="Guias" />
+								<ServiceGeneralItem Icon={RiGuideFill} text="Guías" />
 							</div>
 						</div>
 					</div>

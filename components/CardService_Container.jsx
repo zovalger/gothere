@@ -6,7 +6,7 @@ export default function CardService_Container() {
 		<div className={`${styles.container} container`}>
 			<div className="row">
 				<div className="col-lg-3 col-md-6 col-sm-12">
-					<CardService title={"habitaciones"} urlImg={"/bedroom.webp"} />
+					<CardService title={"Habitaciones"} urlImg={"/bedroom.webp"} />
 				</div>
 
 				<div className="col-lg-3 col-md-6 col-sm-12">
