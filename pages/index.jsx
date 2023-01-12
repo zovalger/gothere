@@ -10,6 +10,7 @@ import ServiceGeneral from "../components/ServiceGeneral";
 import TitleAndDescription from "../components/TitleAndDescription";
 import Footer from "../components/Footer";
 
+
 export default function Home() {
 	return (
 		<>
@@ -32,7 +33,7 @@ export default function Home() {
 							<TitleAndDescription
 								title={"Conócenos mejor"}
 								description={[
-									`El 30 de Noviembre del año 2022 los estudiantes del área de ingeniería en informática JAVIER MORENO, CÉSAR MEZA, ABRAHAM GONZÁLEZ, GERMAN CASTRO y JHON RAMIREZ iniciaron la creación de la empresa que tiene como nombre GoThere, está empresa se creó al ver que la principal problemática en el estado Guárico era la forma ineficiente en que se publicitan los sitios turísticos a los cuales se le puede considerar que tienen un potencial de explotación económico para el beneficio y desarrollo del estado Guárico, esta problemática los motivó a crear GoThere la cual tiene la meta de unir de forma estratégica todos esos lugares apasionantes que tiene este estado de llanuras.`,
+									`El 30 de Noviembre del año 2022 los estudiantes del área de ingeniería en informática Javier Moreno, César Meza, Abraham González, Germán Castro y Jhon Ramírez iniciaron la creación de la empresa que tiene como nombre GoThere, está empresa se creó al ver que la principal problemática en el estado Guárico era la forma ineficiente en que se publicitan los sitios turísticos a los cuales se le puede considerar que tienen un potencial de explotación económico para el beneficio y desarrollo del estado Guárico, esta problemática los motivó a crear GoThere la cual tiene la meta de unir de forma estratégica todos esos lugares apasionantes que tiene este estado de llanuras.`,
 								]}
 							/>
 						</div>

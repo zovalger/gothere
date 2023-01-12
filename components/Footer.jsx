@@ -18,11 +18,10 @@ export default function Footer() {
 					</div>
 
 					<div className="col-md-8 col-sm-12 text-center">
-						<h4>siguenos en nuestras redes sociales</h4>
+						<h4>Síguenos en nuestras redes sociales</h4>
 
 						<span class="text-muted mb-2 d-block">
-							para que estes informado de todas nuestras actividades siguenos en
-							las siguientes redes sociales
+						Para que estes informado de todas nuestras actividades síguenos en las siguientes redes sociales
 						</span>
 
 						<div className="display-5 d-flex justify-content-evenly">
