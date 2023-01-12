@@ -27,8 +27,8 @@ export default function Footer() {
 
 						<div className="display-5 d-flex justify-content-evenly">
 							<FaInstagram />
-							<FaInstagram />
-							<FaInstagram />
+							{/* <FaInstagram />
+							<FaInstagram /> */}
 						</div>
 					</div>
 				</div>
