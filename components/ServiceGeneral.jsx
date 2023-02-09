@@ -18,7 +18,7 @@ export default function ServiceGeneral() {
 						<h2 className="mb-3">¿Que ofrecemos?</h2>
 
 						<p className="mb-4 ">
-							Ofrecemos un paquete de servicios todo incluido en la región de
+							Ofrecemos varios paquetes de servicios todo incluido en la región de
 							San Juan de los Morros que abarca los siguientes aspectos
 						</p>
 
