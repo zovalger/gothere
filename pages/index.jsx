@@ -7,7 +7,7 @@ import MainHero from "../components/MainHero";
 import TurismoGuarico from "../components/TurismoGuarico";
 import ServiceGeneral from "../components/ServiceGeneral";
 import TitleAndDescription from "../components/TitleAndDescription";
-import Layout from "../components/layout/layout";
+import Layout from "../components/layout/Layout";
 
 export default function Home() {
 	return (

@@ -1,4 +1,4 @@
-import Layout from "../components/layout/layout";
+import Layout from "../components/layout/Layout";
 import Button from "react-bootstrap/Button";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 
