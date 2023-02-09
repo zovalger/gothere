@@ -8,8 +8,7 @@ import TurismoGuarico from "../components/TurismoGuarico";
 import ServiceGeneral from "../components/ServiceGeneral";
 import TitleAndDescription from "../components/TitleAndDescription";
 import Layout from "../components/layout/Layout";
-import SliderEmpresas from "../components/main/sliderEmpresas";
-import stylesSliderEmpresas from "../components/main/SliderEmpresas.module.scss";
+import StylesSliderEmpresas from "../components/main/SliderEmpresas.module.scss";
 
 import Image from "next/image";
 
@@ -25,7 +24,7 @@ export default function Home() {
 			<ServiceGeneral />
 
 			<div className="container" id="about">
-				<div className={`${stylesSliderEmpresas.container} `}>
+				<div className={`${StylesSliderEmpresas.container} `}>
 					<h2>Quienes confían en nosotros</h2>
 					<div>
 						<div>
