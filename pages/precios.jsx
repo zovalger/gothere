@@ -101,7 +101,7 @@ export default function precios() {
 					<div className="col-lg-4 col-sm-12">
 						<div className={`${cardStyle.container} ${cardStyle.v2}`}>
 							<h3>Premium</h3>
-							<div className={cardStyle.subtitle}>Hasta dos acompañante</div>
+							<div className={cardStyle.subtitle}>Hasta dos acompañantes</div>
 
 							{/* <hr /> */}
 
