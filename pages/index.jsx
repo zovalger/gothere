@@ -12,7 +12,7 @@ import Layout from "../components/layout/layout";
 export default function Home() {
 	return (
 		<Layout>
-			<MainHero urlImage={"/GoThere-black.svg"}/>
+			<MainHero urlImage={"/GoThere-black.svg"} />
 
 			<div className="container">
 				<CardService_Container />

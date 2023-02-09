@@ -1,0 +1,23 @@
+.container {
+	background: url("/people1-dark.jpg");
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	// img {
+	// 	max-width: 400px;
+	// }
+}
+
+.logo {
+	max-width: 400px;
+	// width: 200px;
+
+	filter: invert(100%);
+}
+
+.info {
+	padding-top: 5rem;
+	padding-bottom: 7rem;
+}

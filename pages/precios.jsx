@@ -4,23 +4,25 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 
 import cardStyle from "../components/precios/CardPrecios.module.scss";
+import Image from "next/image";
+import Carousel from "react-bootstrap/Carousel";
+import PreciosHero from "../components/precios/PreciosHero";
 
 export default function precios() {
 	return (
 		<Layout>
-			<div className="container">
-				<h1 className="text-center">nuestros precios</h1>
+			<PreciosHero />
+			<div className="container mt-5">
+				<h1 className="display-4 fw-normal text-center">Nuestros precios</h1>
+				<div className="col-8 mx-auto text-center">
+					<p className="lead">Nuestros precios se ajustan a tus necesidades</p>
+				</div>
 
-				<p className="text-center">
-					Nuestros precios se ajustan a tus necesidades
-				</p>
-				<div className="row">
+				<div className="row mt-5">
 					<div className="col-lg-4 col-sm-12">
 						<div className={`${cardStyle.container} ${cardStyle.v1}`}>
 							<h3>Basic</h3>
 							<div className={cardStyle.subtitle}>pequena descripcion</div>
-
-							{/* <hr /> */}
 
 							<div className={cardStyle.amount}>
 								99.<span>99</span>$
@@ -90,7 +92,7 @@ export default function precios() {
 									<li>todo el paquete</li>
 								</ul>
 							</div>
-						</div>{" "}
+						</div>
 					</div>
 				</div>
 			</div>

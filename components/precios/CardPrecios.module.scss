@@ -35,13 +35,13 @@
 		// 	rgba(238, 167, 27, 1) 100%
 		// );
 
-    outline: 2px solid rgb(178, 27, 238);
+		outline: 2px solid #ac82f7;
 		background: rgb(238, 167, 27);
 		background: linear-gradient(
 			204deg,
-      rgb(178, 27, 238) 0%,
-			rgb(196, 106, 248)59%,
-			rgb(178, 27, 238) 100%
+			#ac82f7 0%,
+			rgb(234, 198, 255) 59%,
+			#ac82f7 100%
 		);
 		&:hover {
 		}
@@ -56,6 +56,12 @@
 			rgba(0, 241, 255, 1) 0%,
 			rgba(0, 181, 255, 1) 100%
 		);
+
+		outline: 2px solid #00b5ff;
+		background: rgb(0, 241, 255);
+
+		background: linear-gradient(204deg, #20c0ff 0%, #00f1ff 59%, #20c0ff 100%);
+
 		&:hover {
 		}
 	}
@@ -91,9 +97,9 @@
 	margin-top: 1rem;
 	font-weight: 600;
 
-  span {
-    font-size: 1.5rem;
-  }
+	span {
+		font-size: 1.5rem;
+	}
 }
 
 .details {

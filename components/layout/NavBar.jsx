@@ -71,9 +71,9 @@ export default function NavBar() {
 								Precios
 							</Link>
 
-							<Link href="/precios" className="nav-link">
+							{/* <Link href="/precios" className="nav-link">
 								GoThere para empresas
-							</Link>
+							</Link> */}
 						</Nav>
 					</Offcanvas.Body>
 				</Navbar.Offcanvas>
