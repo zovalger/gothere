@@ -1,11 +1,8 @@
 import Layout from "../components/layout/layout";
-import CardPrecios from "../components/precios/cardPrecios";
 import Button from "react-bootstrap/Button";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 
 import cardStyle from "../components/precios/CardPrecios.module.scss";
-import Image from "next/image";
-import Carousel from "react-bootstrap/Carousel";
 import PreciosHero from "../components/precios/PreciosHero";
 
 export default function precios() {
