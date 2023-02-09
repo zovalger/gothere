@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./Footer.module.scss";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaTwitter } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Footer() {
 	return (
@@ -20,14 +21,18 @@ export default function Footer() {
 					<div className="col-md-8 col-sm-12 text-center">
 						<h4>Síguenos en nuestras redes sociales</h4>
 
-						<span class="text-muted mb-2 d-block">
-						Para que estes informado de todas nuestras actividades síguenos en las siguientes redes sociales
+						<span className="text-muted mb-2 d-block">
+							Para que estes informado de todas nuestras actividades síguenos en
+							las siguientes redes sociales
 						</span>
 
 						<div className="display-5 d-flex justify-content-evenly">
-							<FaInstagram />
-							{/* <FaInstagram />
-							<FaInstagram /> */}
+							<Link href="https://twitter.com/zovalger">
+								<FaTwitter />
+							</Link>
+							<Link href="https://www.instagram.com/german_castro_v/">
+								<FaInstagram />
+							</Link>
 						</div>
 					</div>
 				</div>

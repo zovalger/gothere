@@ -2,13 +2,13 @@ import Image from "next/image";
 
 import styles from "./MainHero.module.scss";
 
-export default function MainHero() {
+export default function MainHero({urlImage}) {
 	return (
 		<div className={`${styles.container} container-fluid`}>
 			<div className={`${styles.info} container text-center text-white `}>
 				<Image
 					className={`${styles.logo} w-75`}
-					src="/GoThere-black.svg"
+					src={urlImage}
 					alt="logo"
 					width={200}
 					height={200}

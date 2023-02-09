@@ -1,0 +1,102 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+
+	align-items: center;
+
+	box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.164);
+
+	border-radius: 0.3rem;
+	transition: transform 0.2s, box-shadow 0.2s;
+
+	margin-bottom: 1rem;
+
+	&.v1 {
+		outline: 2px solid rgb(228, 228, 228);
+		background: rgb(233, 233, 233);
+		background: linear-gradient(
+			204deg,
+			rgb(189, 189, 189) 0%,
+			rgb(252, 252, 252) 59%,
+			rgb(189, 189, 189) 100%
+		);
+		&:hover {
+		}
+	}
+
+	&.v3 {
+		// outline: 2px solid rgb(238, 167, 27);
+		// background: rgb(238, 167, 27);
+		// background: linear-gradient(
+		// 	204deg,
+		// 	rgba(238, 167, 27, 1) 0%,
+		// 	rgba(241, 236, 92, 1) 59%,
+		// 	rgba(238, 167, 27, 1) 100%
+		// );
+
+    outline: 2px solid rgb(178, 27, 238);
+		background: rgb(238, 167, 27);
+		background: linear-gradient(
+			204deg,
+      rgb(178, 27, 238) 0%,
+			rgb(196, 106, 248)59%,
+			rgb(178, 27, 238) 100%
+		);
+		&:hover {
+		}
+	}
+
+	&.v2 {
+		outline: 2px solid rgb(0, 241, 255);
+		background: rgb(0, 241, 255);
+
+		background: linear-gradient(
+			204deg,
+			rgba(0, 241, 255, 1) 0%,
+			rgba(0, 181, 255, 1) 100%
+		);
+		&:hover {
+		}
+	}
+
+	&:hover {
+		transform: scale(102%);
+	}
+	button {
+		width: 100%;
+	}
+
+	h3 {
+	}
+
+	hr {
+		// color: white;
+
+		// border: 1px solid white;
+	}
+
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+}
+
+.subtitle {
+	line-height: 0;
+	font-size: 15px;
+}
+.amount {
+	font-size: 3rem;
+	margin-top: 1rem;
+	font-weight: 600;
+
+  span {
+    font-size: 1.5rem;
+  }
+}
+
+.details {
+	margin-top: 1rem;
+	width: 100%;
+}
