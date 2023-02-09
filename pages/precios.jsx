@@ -29,16 +29,61 @@ export default function precios() {
 							<div className={cardStyle.details}>
 								<ul>
 									<li>
-										<AiOutlineCheckCircle /> item
+										<AiOutlineCheckCircle /> 2 Noches
 									</li>
 									<li>
-										<AiOutlineCheckCircle /> item
+										<AiOutlineCheckCircle /> Viaje a 4 sitios turísticos
 									</li>
 									<li>
-										<AiOutlineCheckCircle /> item
+										<AiOutlineCheckCircle /> Comida
 									</li>
 									<li>
-										<AiOutlineCheckCircle /> item
+										<AiOutlineCheckCircle /> Hospedaje
+									</li>
+									<li>
+										<AiOutlineCheckCircle /> Transporte
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div className="col-lg-4 col-sm-12">
+						<div className={`${cardStyle.container} ${cardStyle.v3}`}>
+							<h3>Enterprise </h3>
+							<div className={cardStyle.subtitle}>pequena descripcion</div>
+
+							<div className={cardStyle.amount}>
+								299.<span>99</span>$
+							</div>
+
+							<Button>comprar</Button>
+
+							<div className={cardStyle.details}>
+								<ul>
+									<li>
+										<AiOutlineCheckCircle /> 8 Noches
+									</li>
+									<li>
+										<AiOutlineCheckCircle /> Viaje a 12 sitios turísticos
+									</li>
+									<li>
+										<AiOutlineCheckCircle /> Comida
+									</li>
+									<li>
+										<AiOutlineCheckCircle /> Opción a Comida Local
+									</li>
+									<li>
+										<AiOutlineCheckCircle /> Hospedaje deluxe
+									</li>
+									<li>
+										<AiOutlineCheckCircle /> Transporte privado
+									</li>
+									<li>
+										<AiOutlineCheckCircle /> Eventos
+									</li>
+									<li>
+										<AiOutlineCheckCircle /> Recuerdos
 									</li>
 								</ul>
 							</div>
@@ -59,38 +104,31 @@ export default function precios() {
 							<div className={cardStyle.details}>
 								<ul>
 									<li>
-										<AiOutlineCheckCircle /> descipcion de
+										<AiOutlineCheckCircle /> 4 Noches
 									</li>
-
-									<li>todo el paquete</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div className="col-lg-4 col-sm-12">
-						<div className={`${cardStyle.container} ${cardStyle.v3}`}>
-							<h3>Enterprise </h3>
-							<div className={cardStyle.subtitle}>pequena descripcion</div>
-
-							{/* <hr /> */}
-
-							<div className={cardStyle.amount}>
-								299.<span>99</span>$
-							</div>
-
-							<Button>comprar</Button>
-
-							<div className={cardStyle.details}>
-								<ul>
 									<li>
-										<AiOutlineCheckCircle /> descipcion de
+										<AiOutlineCheckCircle /> Viaje a 8 sitios turísticos
 									</li>
-
-									<li>todo el paquete</li>
+									<li>
+										<AiOutlineCheckCircle /> Comida
+									</li>
+									<li>
+										<AiOutlineCheckCircle /> Opción a Comida Local
+									</li>
+									<li>
+										<AiOutlineCheckCircle /> Hospedaje deluxe
+									</li>
+									<li>
+										<AiOutlineCheckCircle /> Transporte
+									</li>
+									<li>
+										<AiOutlineCheckCircle /> Eventos
+									</li>
 								</ul>
 							</div>
 						</div>
 					</div>
+			
 				</div>
 			</div>
 		</Layout>
