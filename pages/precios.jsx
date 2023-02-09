@@ -19,8 +19,8 @@ export default function precios() {
 					<div className="col-lg-4 col-sm-12">
 						<div className={`${cardStyle.container} ${cardStyle.v1}`}>
 							<h3>Basic</h3>
-							<div className={cardStyle.subtitle}>pequena descripcion</div>
 
+							<div className={cardStyle.subtitle}>Hasta un acompañante </div>
 							<div className={cardStyle.amount}>
 								99.<span>99</span>$
 							</div>
@@ -45,13 +45,18 @@ export default function precios() {
 									</li>
 								</ul>
 							</div>
+
+							<div className={cardStyle.subtitle}>
+								Usted y cualquier acompañante, será integrado en grupos donde
+								será acompañado por los guias de Gothere hacia su destino.
+							</div>
 						</div>
 					</div>
 
 					<div className="col-lg-4 col-sm-12">
 						<div className={`${cardStyle.container} ${cardStyle.v3}`}>
 							<h3>Enterprise </h3>
-							<div className={cardStyle.subtitle}>pequena descripcion</div>
+							<div className={cardStyle.subtitle}>Hasta un acompañante</div>
 
 							<div className={cardStyle.amount}>
 								299.<span>99</span>$
@@ -87,12 +92,16 @@ export default function precios() {
 									</li>
 								</ul>
 							</div>
+							<div className={cardStyle.subtitle}>
+								Usted y cualquier acompañante, será integrado en grupos donde
+								será acompañado por los guias de Gothere hacia su destino.
+							</div>
 						</div>
 					</div>
 					<div className="col-lg-4 col-sm-12">
 						<div className={`${cardStyle.container} ${cardStyle.v2}`}>
 							<h3>Premium</h3>
-							<div className={cardStyle.subtitle}>pequena descripcion</div>
+							<div className={cardStyle.subtitle}>Hasta dos acompañante</div>
 
 							{/* <hr /> */}
 
@@ -126,9 +135,12 @@ export default function precios() {
 									</li>
 								</ul>
 							</div>
+							<div className={cardStyle.subtitle}>
+								Usted y cualquier acompañante, será integrado en grupos donde
+								será acompañado por los guias de Gothere hacia su destino.
+							</div>
 						</div>
 					</div>
-			
 				</div>
 			</div>
 		</Layout>

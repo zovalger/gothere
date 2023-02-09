@@ -1,16 +1,19 @@
-// .container{
-//   img{
-//   }
-// }
+.container {
+  
+  a {
+    transition: transform 0.2s;
+    &:hover {
+			transform: scale(110%);
+		}
+	}
+}
 
-.logo{
-  // width: 200px;
+.logo {
+	// width: 200px;
 
-  // object-fit: fill;
+	// object-fit: fill;
 
-  // filter: invert(100%);
-  // font-size: 2rem;
-// fill: white;  // color: white;
-
-
+	// filter: invert(100%);
+	// font-size: 2rem;
+	// fill: white;  // color: white;
 }

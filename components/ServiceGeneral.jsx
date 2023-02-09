@@ -5,6 +5,7 @@ import ServiceGeneralItem from "./ServiceGeneralItem";
 import { FaBed, FaUtensils, FaSwimmingPool, FaBus } from "react-icons/fa";
 
 import { RiGuideFill } from "react-icons/ri";
+import Link from "next/link";
 
 export default function ServiceGeneral() {
 	return (
@@ -33,6 +34,10 @@ export default function ServiceGeneral() {
 								<ServiceGeneralItem Icon={RiGuideFill} text="Guías" />
 							</div>
 						</div>
+
+						<Link href={"/precios"} className="btn btn-outline-light w-100 mt-5">
+							Ver precios
+						</Link>
 					</div>
 				</div>
 			</div>

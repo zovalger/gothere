@@ -41,7 +41,7 @@ export default function NavBar() {
 			className={styles.container}
 		>
 			<Container fluid>
-				<Navbar.Brand href="/">
+				<Link href="/" className="navbar-brand">
 					<Image
 						className={styles.logo + " d-inline-block align-top"}
 						src="/GoThere-black.svg"
@@ -50,7 +50,8 @@ export default function NavBar() {
 						height={30}
 					/>
 					GoThere
-				</Navbar.Brand>
+				</Link>
+
 				<Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${"lg"}`} />
 				<Navbar.Offcanvas
 					id={`offcanvasNavbar-expand-${"lg"}`}
@@ -66,6 +67,9 @@ export default function NavBar() {
 						<Nav className="justify-content-end flex-grow-1 pe-3">
 							<Link href="/" className="nav-link">
 								Inicio
+							</Link>
+							<Link href="/#about" className="nav-link">
+								Sobre nosotros
 							</Link>
 							<Link href="/precios" className="nav-link">
 								Precios

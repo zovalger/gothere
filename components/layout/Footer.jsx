@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer() {
 	return (
 		<footer className="footer mt-auto py-5 bg-white">
-			<div className="container">
+			<div className={styles.container + " container"}>
 				<div className="row d-flex justify-content-center">
 					<div className="col-md-4 col-sm-12  mb-5 ">
 						<Image

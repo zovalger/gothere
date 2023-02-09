@@ -8,6 +8,10 @@ import TurismoGuarico from "../components/TurismoGuarico";
 import ServiceGeneral from "../components/ServiceGeneral";
 import TitleAndDescription from "../components/TitleAndDescription";
 import Layout from "../components/layout/Layout";
+import SliderEmpresas from "../components/main/sliderEmpresas";
+import stylesSliderEmpresas from "../components/main/SliderEmpresas.module.scss";
+
+import Image from "next/image";
 
 export default function Home() {
 	return (
@@ -19,9 +23,58 @@ export default function Home() {
 				<TurismoGuarico />
 			</div>
 			<ServiceGeneral />
+
+			<div className="container" id="about">
+				<div className={`${stylesSliderEmpresas.container} `}>
+					<h2>Quienes confían en nosotros</h2>
+					<div>
+						<div>
+							<Image
+								src={"/empresa (1).png"}
+								alt="imagen de servicio"
+								width={500}
+								height={500}
+							/>
+						</div>
+						<div>
+							<Image
+								src={"/empresa (2).png"}
+								alt="imagen de servicio"
+								width={500}
+								height={500}
+							/>
+						</div>
+						<div>
+							<Image
+								src={"/empresa (3).png"}
+								alt="imagen de servicio"
+								width={500}
+								height={500}
+							/>
+						</div>
+						<div>
+							<Image
+								src={"/empresa (4).png"}
+								alt="imagen de servicio"
+								width={500}
+								height={500}
+							/>
+						</div>
+						<div>
+							<Image
+								src={"/empresa (5).png"}
+								alt="imagen de servicio"
+								width={500}
+								height={500}
+							/>
+						</div>
+
+					</div>
+				</div>
+			</div>
 			<div className="container">
-				<div className="row">
-					<div className="col-12">
+				<div className="row" >
+					<div className="col-12 ">
 						<TitleAndDescription
 							title={"Conócenos mejor"}
 							description={[
