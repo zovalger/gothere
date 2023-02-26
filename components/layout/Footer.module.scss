@@ -2,6 +2,7 @@
   
   a {
     transition: transform 0.2s;
+		font-size: 3rem;
     &:hover {
 			transform: scale(110%);
 		}
@@ -24,4 +25,5 @@
 	padding: 15px 10px;
 	text-align: center;
 	color: #fff;
+	margin-top: 2rem;
 }
