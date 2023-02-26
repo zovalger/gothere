@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./Footer.module.scss";
-import { FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Footer() {
 	return (
-		<footer className="footer mt-auto py-5 bg-white">
+		<footer className="footer mt-auto pt-5 bg-white">
 			<div className={styles.container + " container"}>
 				<div className="row d-flex justify-content-center">
 					<div className="col-md-4 col-sm-12  mb-5 ">
@@ -27,16 +27,32 @@ export default function Footer() {
 						</span>
 
 						<div className="display-5 d-flex justify-content-evenly">
-							<Link href="https://twitter.com/zovalger">
+							<Link href="https://twitter.com/zovalger" target="_blank">
 								<FaTwitter />
 							</Link>
-							<Link href="https://www.instagram.com/german_castro_v/">
+							<Link
+								href="https://www.instagram.com/german_castro_v/"
+								target="_blank"
+							>
 								<FaInstagram />
+							</Link>
+							<Link
+								href="https://www.facebook.com/zovalger.gamedesing"
+								target="_blank"
+							>
+								<FaFacebook />
 							</Link>
 						</div>
 					</div>
 				</div>
+
+			
 			</div>
+			<div className={styles.copyright}>
+					<small>
+						&copy; 2023 <b>Gothere</b> - Todos los Derechos Reservados.{" "}
+					</small>
+				</div>
 		</footer>
 	);
 }

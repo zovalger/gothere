@@ -38,7 +38,8 @@ export default function NavBar() {
 			bg="primary"
 			variant="dark"
 			expand={"lg"}
-			className={styles.container}
+			className={styles.container + " fixed-top shadow"}
+			
 		>
 			<Container fluid>
 				<Link href="/" className="navbar-brand">

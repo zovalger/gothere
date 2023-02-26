@@ -23,11 +23,14 @@ export default function Home() {
 			</div>
 			<ServiceGeneral />
 
-			<div className="container" id="about">
+			<div  className="container" id="about">
 				<div className={`${StylesSliderEmpresas.container} `}>
-					<h2>Quienes confían en nosotros</h2>
-					<div>
-						<div>
+					<h2  >Quienes confían en nosotros</h2>
+					<div >
+
+					{/* <div data-aos="fade-right">dasda</div> */}
+						
+						<div > 
 							<Image
 								src={"/empresa (1).png"}
 								alt="imagen de servicio"

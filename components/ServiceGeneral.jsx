@@ -13,7 +13,7 @@ export default function ServiceGeneral() {
 			<div className="container ">
 				<div className="row justify-content-end">
 					<div
-						className={`${styles.card} text-white col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-primary`}
+						className={`${styles.card} text-white col-xl-4 col-lg-4 col-md-6 col-sm-12 bg-primary`}
 					>
 						<h2 className="mb-3">¿Que ofrecemos?</h2>
 

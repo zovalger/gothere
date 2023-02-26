@@ -22,7 +22,7 @@ export default function precios() {
 
 							<div className={cardStyle.subtitle}>Hasta un acompañante </div>
 							<div className={cardStyle.amount}>
-								99.<span>99</span>$
+								79.<span>99</span>$
 							</div>
 							<Button>comprar</Button>
 
@@ -59,7 +59,7 @@ export default function precios() {
 							<div className={cardStyle.subtitle}>Hasta un acompañante</div>
 
 							<div className={cardStyle.amount}>
-								299.<span>99</span>$
+								259.<span>99</span>$
 							</div>
 
 							<Button>comprar</Button>
@@ -106,7 +106,7 @@ export default function precios() {
 							{/* <hr /> */}
 
 							<div className={cardStyle.amount}>
-								199.<span>99</span>$
+								149.<span>99</span>$
 							</div>
 							<Button>comprar</Button>
 
