@@ -1,6 +1,11 @@
 import Image from "next/image";
 import styles from "./Footer.module.scss";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import {
+	FaFacebook,
+	FaInstagram,
+	FaTelegramPlane,
+	FaTwitter,
+} from "react-icons/fa";
 import Link from "next/link";
 
 export default function Footer() {
@@ -42,17 +47,19 @@ export default function Footer() {
 							>
 								<FaFacebook />
 							</Link>
+
+							<Link href="https://t.me/Zovalger_G" target="_blank">
+								<FaTelegramPlane />
+							</Link>
 						</div>
 					</div>
 				</div>
-
-			
 			</div>
 			<div className={styles.copyright}>
-					<small>
-						&copy; 2023 <b>Gothere</b> - Todos los Derechos Reservados.{" "}
-					</small>
-				</div>
+				<small>
+					&copy; 2023 <b>Gothere</b> - Todos los Derechos Reservados.{" "}
+				</small>
+			</div>
 		</footer>
 	);
 }

@@ -1,0 +1,44 @@
+.container {
+}
+
+.img {
+	width: 9rem;
+	height: 9rem;
+	overflow: hidden;
+
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+	border: 0.4rem solid white;
+
+	img {
+		object-fit: cover;
+		width: 100%;
+		height: auto;
+	}
+}
+
+.name {
+	width: 70%;
+	margin-top: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+}
+
+.comment {
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+	
+}
+
+.stars {
+	color: yellow;
+	// color: white;
+
+	filter: drop-shadow(0 0 3px #0000008c);
+
+	font-size: 1rem;
+
+	svg {
+		margin: 0.2rem;
+	}
+}

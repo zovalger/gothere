@@ -11,6 +11,7 @@ import Layout from "../components/layout/Layout";
 import StylesSliderEmpresas from "../components/main/SliderEmpresas.module.scss";
 
 import Image from "next/image";
+import Comments from "../components/comment/Comments";
 
 export default function Home() {
 	return (
@@ -85,6 +86,11 @@ export default function Home() {
 						/>
 					</div>
 				</div>
+
+
+
+			
+
 				<div className="row">
 					<div className="col-md-6 col-sm-12">
 						<TitleAndDescription
@@ -166,6 +172,8 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+
+			<Comments />
 		</Layout>
 	);
 }
