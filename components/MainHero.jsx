@@ -12,6 +12,7 @@ export default function MainHero({ urlImage }) {
 					alt="logo"
 					width={200}
 					height={200}
+					priority
 				/>
 
 				<h1 className="display-4 fw-normal">

@@ -24,20 +24,19 @@ export default function Home() {
 			</div>
 			<ServiceGeneral />
 
-			<div  className="container" id="about">
+			<div className="container" id="about">
 				<div className={`${StylesSliderEmpresas.container} `}>
-					<h2  >Quienes confían en nosotros</h2>
-					<div >
+					<h2>Quienes confían en nosotros</h2>
+					<div>
+						{/* <div data-aos="fade-right">dasda</div> */}
 
-					{/* <div data-aos="fade-right">dasda</div> */}
-						
-						<div > 
+						<div>
 							<Image
 								src={"/empresa (1).png"}
 								alt="imagen de servicio"
 								width={500}
 								height={500}
-							/>
+								loading='lazy'							/>
 						</div>
 						<div>
 							<Image
@@ -45,6 +44,7 @@ export default function Home() {
 								alt="imagen de servicio"
 								width={500}
 								height={500}
+								loading='lazy'
 							/>
 						</div>
 						<div>
@@ -53,6 +53,7 @@ export default function Home() {
 								alt="imagen de servicio"
 								width={500}
 								height={500}
+								loading='lazy'
 							/>
 						</div>
 						<div>
@@ -61,6 +62,7 @@ export default function Home() {
 								alt="imagen de servicio"
 								width={500}
 								height={500}
+								loading='lazy'
 							/>
 						</div>
 						<div>
@@ -69,14 +71,14 @@ export default function Home() {
 								alt="imagen de servicio"
 								width={500}
 								height={500}
+								loading='lazy'
 							/>
 						</div>
-
 					</div>
 				</div>
 			</div>
 			<div className="container">
-				<div className="row" >
+				<div className="row">
 					<div className="col-12 ">
 						<TitleAndDescription
 							title={"Conócenos mejor"}
@@ -86,10 +88,6 @@ export default function Home() {
 						/>
 					</div>
 				</div>
-
-
-
-			
 
 				<div className="row">
 					<div className="col-md-6 col-sm-12">

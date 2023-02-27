@@ -7,8 +7,9 @@ export default function CardService({urlImg, title}) {
 			<Image
 				src={urlImg}
 				alt="imagen de servicio"
-				width={500}
-				height={500}
+				width={300}
+				height={300}
+				loading='lazy'
 			/>
 
 			<div className={styles.name}>

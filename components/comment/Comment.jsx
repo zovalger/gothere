@@ -11,7 +11,13 @@ export default function Comment({ img, nombre, comentario, starts }) {
 	return (
 		<div className="text-center d-flex flex-column  align-items-center mt-5">
 			<div className={styles.img}>
-				<Image src={img} alt="foto de perfil" width={100} height={100} />
+				<Image
+					src={img}
+					alt="foto de perfil"
+					width={100}
+					height={100}
+					loading="lazy"
+				/>
 			</div>
 			<div className={styles.name}>{nombre}</div>
 			{/* <hr /> */}
